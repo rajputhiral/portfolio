@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Software Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles go here */
+        body {
+            padding-top: 56px; /* Adjust based on your navbar height */
+            font-family: Arial, sans-serif;
+        }
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(to right, #2980b9, #6dd5fa); /* Gradient background */
+            color: #fff; /* White text */
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        /* Projects Section */
+        .projects-section {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 100px 0;
+        }
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        /* Footer */
+        footer {
+            background-color: #343a40; /* Dark gray background */
+            color: #fff; /* White text */
+            padding: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hiral Rajput</a>
+            
+            
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Aspiring Junior Software Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>
+                I am  a passionate and motivated junior .NET developer eager to embark on a journey in the world of software development. With a solid foundation in .NET technologies and a thirst for continuous learning, I'm excited to contribute to innovative projects and collaborate with like-minded professionals.
+            </p>
+                <ul><li><strong>Programming Languages</strong>: Proficient in C#, with a strong understanding of object-oriented programming principles.</li><li><strong>.NET Technologies</strong>: Experienced in ASP.NET MVC, ASP.NET Core, and .NET Framework.</li><li><strong>Database Management</strong>: Familiar with SQL Server and Entity Framework for database design and management.</li><li><strong>Frontend Development</strong>: Knowledgeable in HTML, CSS, and JavaScript, with experience in frontend frameworks like Bootstrap.</li><li><strong>Version Control</strong>: Proficient in Git for collaborative development and version control.</li><li><strong>Problem-Solving</strong>: Adept at identifying and solving complex problems with a logical and systematic approach.</li><li><strong>Continuous Learning</strong>: Committed to staying updated with the latest advancements in technology and incorporating them into my work.</li></ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                  <!-- Example project card -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">BootStrap Static Website</h5>
+                            <p class="card-text">This is a static website created using bootstrap technology to show my desgining skills.
+                                 I have created home, contact us, about us pages and deployed it on github.
+                                 Please click on below button to see it.
+                            </p>
+
+
+                            <a href="https://rajputhiral.github.io/hr/Index.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example project card -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">AutoMativeCarZone</h5>
+                            <p class="card-text">It is a website providing details for car repair services,charges and appointment facilities.
+                                I have created it using asp.net three tire application with store procedure.
+                                It has admin and client panel.
+
+
+                            </p>
+                            <a href="https://github.com/rajputhiral/CarRepair" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                <!-- Example project card -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">BoutiquePortal</h5>
+                            <p class="card-text">This Website contains three panels Admin,Client and Vendor to manage beutiq orders of cloths.
+                                I have created it using MVC CRUD, EntityFramework and Linq Queries.
+                                Also used blazor syntaxes.
+                            </p>
+                            
+                            <a href="https://github.com/rajputhiral/Boutique" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <p class="lead">Feel free to reach out to me via the following methods:</p>
+            <!-- Contact form -->
+            <form>
+                <div class="form-group">
+                    <h5><label for="name">Name:Hiral Rajput</label></h5>
+                    
+
+                </div>
+                <div class="form-group">
+                    <h5><label for="email">Email:h29rajput@gmail.com</label></h5>
+                    
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center">
+        <div class="container">
+            &copy; Hiral Rajput
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery, Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
